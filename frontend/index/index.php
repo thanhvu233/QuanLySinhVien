@@ -18,7 +18,6 @@ if (!isset($_SESSION["userID"])) {
     <title>Quản lý sinh viên</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="../assets/fonts/fontawesome-free-5.15.2-web/css/all.css">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link rel="icon" href="../assets/img/favicon/favicon.png" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="../assets/css/style.css">
