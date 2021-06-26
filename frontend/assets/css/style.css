@@ -1,0 +1,348 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    font-size: 18px;
+}
+
+@media (max-width: 87.9375em) {
+    html {
+        font-size: 16px;
+
+    }
+}
+
+/* Tablet */
+@media (min-width: 36em) and (max-width: 62em){
+    .container-fluid {
+        padding: 128px 0 !important;
+    }
+
+    .slider .carousel-inner {
+        margin-top: -48px;
+        margin-bottom: -72px;
+    }
+
+    .px-48 {
+        padding: 0 !important;
+    }
+
+    .navbar-nav li:hover a{
+        color: #80ffdb !important;
+        border: none !important;
+    }
+
+    .subject-search,
+    .subject-register .form-inline,
+    .subject-result h4,
+    .tuition-semester h4,
+    .tuition-current,
+    .timetable-section .form-group,
+    .test-schedule-section .form-group,
+    .score-section .form-group
+ {
+        margin-left: 0 !important;
+    }
+
+    .subject-register .save-btn {
+        margin-right: 0 !important;
+    }
+
+    .subject-result-table thead th:nth-child(3),
+    .subject-result-table thead th:first-child,
+    .timetable-table thead th:nth-child(1),
+    .timetable-table thead th:nth-child(2),
+    .timetable-table thead th:nth-child(3),
+    .timetable-table thead th:nth-child(4),
+    .timetable-table thead th:nth-child(5),
+    .timetable-table thead th:nth-child(6) {
+        padding-bottom: 20px;
+    }
+
+    .timetable-table tbody tr:nth-child(2) td:nth-child(3),
+    .timetable-table tbody tr:nth-child(2) td:nth-child(4),
+    .timetable-table tbody tr:nth-child(2) td:nth-child(5) {
+        padding-top: 24px !important;
+    }
+
+    .timetable-table tbody tr:nth-child(2) td:nth-child(1) {
+        padding-top: 36px !important;
+    }
+
+    .timetable-table tbody tr:nth-child(5) td:nth-child(1) {
+        padding-top: 28px !important;
+    }
+
+    .test-schedule__table thead th:nth-child(1),
+    .test-schedule__table thead th:nth-child(3),
+    .test-schedule__table thead th:nth-child(4) {
+        padding-bottom: 24px;
+    }
+}
+
+/* mobile */
+@media (max-width: 36em){
+    .container-fluid {
+        padding: 128px 0 !important;
+    }
+
+    .slider .carousel-inner {
+        margin-top: -48px;
+        margin-bottom: -72px;
+    }
+
+    .px-48 {
+        padding: 0 !important;
+    }
+
+    .navbar-nav li:hover a{
+        color: #80ffdb !important;
+        border: none !important;
+    }
+
+    .subject-search,
+    .subject-register .form-inline,
+    .subject-result h4,
+    .tuition-semester h4,
+    .tuition-current,
+    .timetable-section .form-group,
+    .test-schedule-section .form-group,
+    .score-section .form-group {
+        margin-left: 0 !important;
+    }
+
+    .score-section select,
+    .test-schedule-section select,
+    .timetable-section select,
+    .subject-register__list {
+        margin-left: 0 !important;
+    }
+
+    .subject-register .save-btn {
+        margin-right: 0 !important;
+    }
+
+    .subject-search__textfield {
+        margin-top: 4px;
+    }
+    
+}
+
+/* iphone X */
+@media (max-width: 23.5em) {
+    .timetable-section .button-direction button{
+        margin-right: -3px !important;
+    }
+}
+
+
+h2 {
+    padding-bottom: 64px;
+}
+
+.container-fluid {
+    padding: 128px 136px 128px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.px-48 {
+    padding: 0 48px;
+}
+
+table {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+    background-color: #0e2166;
+}
+
+
+.navbar .navbar-brand .ptit-logo {
+    width: 108px;
+}
+
+.navbar-nav li a {
+    margin-left: 4rem !important;
+}
+
+.navbar-nav li:hover a{
+    color: #80ffdb !important;
+    border-bottom: 1.5px solid #80ffdb;
+}
+
+th,
+.navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+}
+
+.student-info,
+.student-password {
+    font-size: 20px;
+}
+
+.slider {
+    padding: 80px 0 0;
+}
+
+.subject-search .subject-search__textfield {
+    height: 40px;
+    width: 244px;
+    
+}
+
+.subject-search button:hover {
+    background-color: #fff;
+    color: #28a745;
+}
+
+.timetable-section button:hover,
+.subject-register .save-btn:hover {
+    background-color: #fff;
+    color: #007bff;
+}
+
+.timetable-table tbody tr:nth-child(5) td:first-child,
+.timetable-table tbody tr:nth-child(2) td:first-child {
+    padding: 20px;
+}
+
+.subject-register .erase-btn:hover {
+    background-color: #fff;
+    color: #dc3545;
+}
+
+.tuition-section {
+    background-color: #fff;
+}
+
+.test-schedule-section,
+.personal-info {
+    background-color: #f6f6f6;
+}
+
+.test-schedule__table tr th:nth-child(1){
+    width: 1%;
+    padding-bottom: 1.5rem;
+}
+
+.test-schedule__table tr th:nth-child(2){
+    width: 5%;
+    padding-bottom: 1.5rem;
+}
+
+.test-schedule__table tr th:nth-child(3){
+    width: 25%;
+    padding-bottom: 1.5rem;
+}
+
+.test-schedule__table tr th:nth-child(4){
+    width: 5%;
+    padding-bottom: 1.5rem;
+}
+
+.test-schedule__table tr th:nth-child(5){
+    width: 9%;
+}
+
+.test-schedule__table tr th:nth-child(6){
+    width: 9%;
+}
+
+.test-schedule__table tr th:nth-child(7){
+    width: 1%;
+}
+
+
+.timetable-section .timetable-table {
+    font-size: 12px;
+    padding: 0;
+}
+
+.score-table tr th:nth-child(1){
+    width: 1%;
+}
+
+.score-table tr th:nth-child(2){
+    width: 1%;
+}
+
+.score-table tr th:nth-child(3){
+    width: 25%;
+}
+
+.score-table tr th:nth-child(4){
+    width: 5%;
+}
+
+.score-table tr th:nth-child(5){
+    width: 5%;
+}
+
+.score-table tr th:nth-child(6){
+    width: 5%;
+}
+
+.score-table tr th:nth-child(7){
+    width: 5%;
+}
+
+.score-table tr th:nth-child(8){
+    width: 5%;
+}
+
+.score-table tr th:nth-child(9){
+    width: 5%;
+}
+
+.score-table tr th:nth-child(10){
+    width: 5%;
+}
+
+.score-table tr th:nth-child(11){
+    width: 5%;
+}
+
+.timetable-table th:nth-child(1){
+    width: 5.5%;
+}
+
+.timetable-table th:nth-child(2),
+.timetable-table th:nth-child(3),
+.timetable-table th:nth-child(4),
+.timetable-table th:nth-child(5),
+.timetable-table th:nth-child(6),
+.timetable-table th:nth-child(7),
+.timetable-table th:nth-child(8){
+    width: 13.5%;
+}
+
+
+.score-table th:nth-child(1),
+.score-table th:nth-child(3){
+    padding-bottom: 20px;
+}
+
+.score-table tr:last-child td:first-child,
+.score-table tr:last-child td:nth-child(2),
+.score-table tr:last-child td:nth-child(4),
+.score-table tr:last-child td:nth-child(5),
+.score-table tr:last-child td:nth-child(6),
+.score-table tr:last-child td:nth-child(7),
+.score-table tr:last-child td:nth-child(8),
+.score-table tr:last-child td:nth-child(9),
+.score-table tr:last-child td:nth-child(10),
+.score-table tr:last-child td:nth-child(11) {
+    padding-top: 20px;
+}
+
+.student-password .pwd-input {
+    width: 16rem;
+}
+
