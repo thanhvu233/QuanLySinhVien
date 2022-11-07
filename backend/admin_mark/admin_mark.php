@@ -87,7 +87,7 @@ if (!isset($_SESSION["adminID"]) || !isset($_SESSION["account"])) {
                     <input type="text" placeholder="Nhập mã sinh viên hoặc tên sinh viên..." name="search" class="timKiem">
                     <input type="submit" value="Tìm kiếm">
                 </form>
-                <a href="input_mark.php" type="submit" name="add-btn" class="add-btn">Thêm điểm</a href="">
+                <a href="input_mark.php" type="submit" name="add-btn" class="add-btn">Thêm</a href="">
             </div>
             <!-- end subject-search section -->
 

@@ -87,7 +87,7 @@ die();
                     <input type="text" placeholder="Nhập mã sinh viên hoặc tên sinh viên..." name="search" class="timKiem">
                     <input type="submit" value="Tìm kiếm">
                 </form>
-                <a href="input_student.php" type="submit" name="add-btn" class="add-btn">Thêm sinh viên</a href="">
+                <a href="input_student.php" type="submit" name="add-btn" class="add-btn">Thêm</a href="">
             </div>
             <!-- end student-search section -->
 
