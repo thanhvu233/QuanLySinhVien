@@ -13,14 +13,14 @@ session_start();
     <title>Quản lý sinh viên</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./backend/assets/css/login.css">
 </head>
 
 <body>
     <div class="container">
         <div class="row content">
             <div class="col-md-6 mb-3">
-                <img src="./assets/img/login/undraw_teaching_f1cm.svg" alt="image" class="img-fluid">
+                <img src="./backend/assets/img/login/undraw_teaching_f1cm.svg" alt="image" class="img-fluid">
             </div>
             <div class="col-md-6 mb-3">
                 <h3 class="signin-text mb-3 text-center">Welcome to PTIT</h3>
@@ -36,7 +36,7 @@ session_start();
                                 $_SESSION["adminID"] = $value["adminID"];
                                 $_SESSION["account"] = $value["account"];
                                 // $error = "";
-                                header("Location: ./admin_home/admin_home.php");
+                                header("Location: ./backend/admin_home/admin_home.php");
                             } else {
                                 echo '
                                 <script>
@@ -59,7 +59,7 @@ session_start();
                                     $_SESSION["userID"] = $value["studentID"];
                                     // $_SESSION["account"] = $value["account"];
                                     // $error = "";
-                                    header("Location: ../../frontend/index/index.php");
+                                    header("Location: ./frontend/index/index.php");
                                 } else {
                                     echo '
                                 <script>
